@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "tsc-watch --onSuccess \"node server/index.js\"",
     "start": "node server/index.js",
+    "build":"tsc",
     "clean": "rm -rf yarn.lock node_modules && yarn add all"
   },
   "version": "1.0.0",
